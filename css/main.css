@@ -208,16 +208,174 @@ a{
     position: relative;
 }
 
-.video{
-    margin-top: 200px;
+.statistics__items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.statistics{
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
+.statistics__item__title{
+    margin-bottom: 19px;
+    text-align: center;
+}
 
+.statistics__item__mun{
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: 7px;
+    text-align: center;
+}
 
+.statistics__item__description{
+    color: #B70021;
+    text-align: center;
+}
 
+.statistics__item__mun span{
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+}
 
+.statistick__iten__speed span{
+    display: inline-block;
+    position: relative;
+}
 
+.statistick__iten__speed span::before{
+    content: "+";
+    position: absolute;
+    top: -60px;
+}
+
+.video{
+    margin-bottom: 100px;
+}
+
+.speed__section_-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.speed-title{
+    font-size: 36px;
+    line-height: 42px;
+    color: #B70021;
+    margin-bottom: 100px;
+}
+
+.advantages{
+    margin-bottom: 100px;
+}
+.speed-description{
+    width: 300px;
+}
+
+.speed__section{
+    margin-bottom: 100px;
+}
+
+.advantages__inner{
+    display: flex;
+    position: relative;
+}
+
+.advantages__img{
+    display: block;
+}
+.advantages__list{
+    padding-left: 50px;
+
+}
+
+.advantages__list__inner{
+    display: flex;
+    align-items: center;
+
+}
+
+.advantages__list__value{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.advantages__list__value a{
+    font-size: 36px;
+    line-height: 42px;
+    color: #B70021;
+}
+
+.inside__images{
+    margin-bottom: 100px;
+}
+
+.description__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__num{
+    color: #B70021;
+}
+
+.description_01{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description_02{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    margin-bottom: 100px;
+}
+
+.description__text{
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.footer{
+    background: #690102;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer__nav__item{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 120px;
+}
+.footer__info-link {
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #FFFFFF;
+    padding: 30px 60px;
+
+}
+
+.footer__info-link:hover{
+    background-color: #0B0B0B;
+}
+
+.footer__nav__linl::after{
+   content: "|";
+    margin-left: 20px;
+}
 
 
 
